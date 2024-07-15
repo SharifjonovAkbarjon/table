@@ -12,9 +12,8 @@
         <div class="container">
             <div class="wrapper">
                 <table  class="table__content">
-                    <thead>
-                        <tr>
-                            <th>Number</th>
+                    <thead class="thead">
+                        <tr class="tr">
                             <th>Name</th>
                             <th>Surname</th>
                             <th>Age</th>
@@ -24,55 +23,13 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
                             <td>Akbarjon</td>
                             <td>Sharifjonov</td>
                             <td>20</td>
                             <td>Namangan</td>
                             <td>8</td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Mohlaroy</td>
-                            <td>Mahmudova</td>
-                            <td>19</td>
-                            <td>Namangan</td>
-                            <td>6.5</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Asilbek</td>
-                            <td>Abdullayev</td>
-                            <td>25</td>
-                            <td>Tashkent</td>
-                            <td>7.5</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Abdumajid</td>
-                            <td>Ortiqov</td>
-                            <td>21</td>
-                            <td>Samarqand</td>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Sanjarbek</td>
-                            <td>Shonazarov</td>
-                            <td>22</td>
-                            <td>Xoramz</td>
-                            <td>6.5</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Muzaffar</td>
-                            <td>Qobilov</td>
-                            <td>20</td>
-                            <td>Fargona</td>
-                            <td>5.5</td>
-                        </tr>
                     </tbody>
-                    <tfoot></tfoot>
                 </table>
             </div>
         </div>
@@ -86,9 +43,9 @@
     <div class="register">
         <div class="overlay"></div>
         <form class="model" action="">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Surname">
-            <select name="" id="">
+            <input class="model_name" type="text" placeholder="Name">
+            <input class="model_surname" type="text" placeholder="Surname">
+            <!-- <select name="" id="">
                 <option value="">1</option>
                 <option value="">2</option>
                 <option value="">3</option>
@@ -139,8 +96,9 @@
                 <option value="">48</option>
                 <option value="">49</option>
                 <option value="">50</option>
-            </select>
-            <select name="Chose" id="" >
+            </select> -->
+            <input class="model_age" type="text" placeholder="Age">
+            <!-- <select name="Chose" id="" >
                 <option value="">Namangan</option>
                 <option value="">Andijon</option>
                 <option value="">Ferghana</option>
@@ -154,29 +112,12 @@
                 <option value="">Khorazm</option>
                 <option value="">Navai</option>
                 <option value="">Qoralqogistan</option>
-            </select>
-            <select name="" id="">
-                <option value="">0.5</option>
-                <option value="">1</option>
-                <option value="">1.5</option>
-                <option value="">2</option>
-                <option value="">2.5</option>
-                <option value="">3</option>
-                <option value="">3.5</option>
-                <option value="">4</option>
-                <option value="">4.5</option>
-                <option value="">5</option>
-                <option value="">5.5</option>
-                <option value="">6</option>
-                <option value="">6.5</option>
-                <option value="">7</option>
-                <option value="">7.5</option>
-                <option value="">8</option>
-                <option value="">8.5</option>
-                <option value="">9</option>
+            </select> -->
+            <input class="model_address" type="text" placeholder="Address">
+            <select class="model_score" name="" id="">
             </select>
             <button class="model__btn">Register</button>
-            <button class="model__close">Cancel</button>
+            <button type="button" class="model__close">Cancel</button>
         
         </form>
     </div>
